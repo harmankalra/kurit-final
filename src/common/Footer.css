@@ -1,0 +1,397 @@
+.completeFooter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    background-color: #395198;
+    padding: 1.8% 0;
+    overflow: hidden;
+    margin-top: 10%;
+}
+
+.footerUpper{
+    width: 100%;
+    display: flex;
+}
+
+.footerLeft{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    background-color: white;
+    padding: 1% 0;
+}
+
+.footerKuritImg{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerKuritImg img{
+    width: 100%;
+}
+
+.footerNavLinks{
+    width: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.footerNavLinks a{
+    text-decoration: none;
+    color: black;
+    font-size: calc(1.5vw);
+    margin: 12% 0;
+}
+
+.footerSocialLinks{
+    width: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.footerSocialLinks a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2vw;
+    font-weight: 100;
+    margin: 6% 0;
+}
+
+.footerSocialLinks span{
+    font-family: 'CustomFont';
+}
+
+.footerContent{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footerC{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4%;
+}
+
+.footerC .fh{
+    margin: 0;
+    font-size: calc(1vw);
+    margin-bottom: 3%;
+}
+
+.footerC .fp{
+    font-family: "lgcd";
+    margin: 0;
+    font-size: calc(1.35vw);
+}
+
+.navbarC {
+    width: 90%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 0.7%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.contactU {
+    width: 35%;
+    display: flex;
+}
+
+.contactU p {
+    font-family: 'lgcd';
+    margin: 0;
+    font-size: 1.3vw;
+    font-weight: 700;
+    color: black;
+}
+
+.navbarContactN {
+    width: 65%;
+    display: flex;
+    padding: 4% 0;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.navbarContactN p {
+    font-family: 'lgcd';
+    color: white;
+    margin: 0;
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+
+.navbarContactN img {
+    width: 9%;
+}
+
+.fRightImg{
+    width: 35%;
+}
+
+.fRightImg img{
+    width: 100%;
+    transform: scale(1.28);
+}
+
+.footerLower{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5% 4%;
+}
+
+.footerFirst{
+    width: 19%;
+}
+
+.footerSecond{
+    width: 21%;
+}
+
+.footerFirst p{
+    font-family: "lgcd";
+    font-size: 1.1vw;
+    margin: 0;
+}
+
+.footerSecond p{
+    font-family: "lgcd";
+    font-size: 1.1vw;
+    margin: 0;
+}
+
+
+/* CSS For Mobile View */
+.footerMobile{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    background-color: #395198;
+    padding: 4% 2.5% 4% 2.5%;
+}
+
+.innerwhite{
+    width: 100%;
+    background-color: white;
+    padding: 3% 0 2% 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.innerUpper{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.innerimg{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerUpper img{
+    width: 70%; 
+}
+
+.innermiddle{
+    display: flex;
+    justify-content: space-between;
+    width: 89%;
+    margin: auto;
+    margin-top: 8%;
+    padding-left: 4%;
+}
+
+.navlinks{
+    display: flex;
+    flex-direction: column;
+    gap: 9%;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    font-size: 4.5vw;
+}
+
+.navlinks a span{
+    font-family: "CustomFont";
+    font-weight: 100;
+}
+
+.addressspace{
+    width: 64%;
+}
+
+.addressspace p{
+    margin: 0;
+}
+
+.addressspace .fh{
+    font-size: 3.7vw;
+    margin-bottom: 2.5%;
+}
+
+.addressspace .fp{
+    font-family: "lgcd";
+    font-size: 3.9vw;
+}
+
+.navbarCm {
+    width: 69%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 0.7%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.contactUm {
+    width: 35%;
+    display: flex;
+}
+
+.contactUm p {
+    font-family: 'lgcd';
+    margin: 0;
+    font-size: 3.1vw;
+    font-weight: 700;
+    color: black;
+}
+
+.navbarContactNm {
+    width: 73%;
+    display: flex;
+    padding: 5% 0;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.navbarContactNm p {
+    font-family: 'lgcd';
+    color: white;
+    margin: 0;
+    font-size: 3.4vw;
+    font-weight: 700;
+}
+
+.navbarContactNm img {
+    width: 9%;
+}
+
+.innerlower{
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    margin: auto;
+    margin-top: 8%;
+    padding-left: 4%;
+}
+
+.sm{
+    display: flex;
+    flex-direction: column;
+}
+
+.sm a{
+    text-decoration: none;
+    color: black;
+    font-size: 4vw;
+    margin-bottom: 8%;
+}
+
+.sm a span{
+    font-family: 'CustomFont';
+}
+
+.emailspace{
+    width: 64%;
+}
+
+.emailspace p{
+    margin: 0;
+}
+
+.emailspace .fh{
+    font-size: 3.4vw;
+    margin-bottom: 2.5%;
+}
+
+.emailspace .fp{
+    font-family: "lgcd";
+    font-size: 3.9vw;
+}
+
+.innerimg2{
+    width: 100%;
+}
+
+.innerimg2 img{
+    width: 100%;
+    height: 100%;
+    transform: translateY(17%) scaleX(1);
+}
+
+
+@media (min-width:574px){
+    .footerMobile{
+        display: none;
+    }
+}
+
+@media (max-width: 575px){
+    .completeFooter{
+        overflow: hidden;
+    }
+    .footer{
+        display: flex;
+        background-color: white;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3% 2%;
+        margin-top: 1%;
+    }
+    .footerUpper{
+        display: none;
+    }
+
+    .footerFirst{
+        width: 38%;
+    }
+    
+    .footerSecond{
+        width: 49%;
+    }
+
+    .footerFirst p{
+        font-size: 2.7vw;
+    }
+    
+    .footerSecond p{
+        font-size: 2.7vw;
+    }
+}

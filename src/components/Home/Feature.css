@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'washington';
+    src: url('../../Font/Washington.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../../Font/Lgc.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.features{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.featuresHeading{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+}
+
+.featuresHeading p{
+    font-family: 'washington';
+    color: black;
+    font-size: calc(3.3vw);
+    margin: 0
+}
+
+.featuresContent{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-left: 6%;
+}
+
+.featuresItem{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featuresItem img{
+    width: 50%;
+    margin-bottom: 9%;
+}
+
+.featuresItem p{
+    font-family: 'CustomFont';
+    font-size: calc(1.6vw);
+    font-weight: 600;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.featuresItem span{
+    font-family: 'washington';
+}
+@media (max-width:575px){
+    .featuresHeading{
+        width: 93%;
+        margin: auto;
+        display: flex;
+        justify-content: start;
+    }
+    .featuresHeading p{
+        font-family: 'washington';
+        color: black;
+        font-size: calc(6.5vw);
+        margin: 0
+    }
+    .featuresContent{
+        flex-direction: column;
+    }
+    .featuresItem{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 2%;
+    }
+    .featuresItem img{
+        width: 40%;
+        margin-bottom: 2%;
+    }
+    .featuresItem p{
+        font-size: calc(4.3vw);
+    }
+}

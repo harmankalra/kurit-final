@@ -1,0 +1,331 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../Font/Lgcd.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mainNavbar{
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+.navbar {
+    width: 95%;
+    margin: auto;
+    background-color: white;
+    /* padding: 0.9% 0 0 0; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarImg {
+    width: 5.5%;
+    display: flex;
+    align-items: center;
+}
+
+.navbarImg img {
+    width: 100%;
+}
+
+.navbarItems {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarItems a {
+    text-decoration: none;
+    color: black;
+    font-size: calc(1.2vw + 0.5vh);
+    font-weight: 700;
+}
+
+
+.navbarContact {
+    width: 30%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 0.4%;
+    /* border: 1px solid black; */
+    text-shadow: none; /* Removed text shadow */
+  --border-angle: 0turn;
+  --main-bg: conic-gradient(
+    from var(--border-angle),
+    white,
+    white 5%,
+    white 60%,
+    white 95%
+  );
+  border: solid 2px transparent;
+  --gradient-border: conic-gradient(
+    from var(--border-angle),
+    transparent 25%,
+    black,
+    black 99%,
+    transparent
+  );
+  background: var(--main-bg) padding-box, var(--gradient-border) border-box, var(--main-bg) border-box;
+  background-position: center center;
+  -webkit-animation: bg-spin 3s linear infinite;
+          animation: bg-spin 3s linear infinite;
+}
+
+@-webkit-keyframes bg-spin {
+    to {
+      --border-angle: 1turn;
+    }
+  }
+  
+  @keyframes bg-spin {
+    to {
+      --border-angle: 1turn;
+    }
+  }
+  
+  @property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+  }
+
+.contactUsHeading {
+    width: 34%;
+    display: flex;
+}
+
+.contactUsHeading p {
+    margin: 0;
+    font-size: 1.50vw;
+    font-weight: 700;
+    color: black;
+}
+
+.navbarContactNumber {
+    width: 65%;
+    display: flex;
+    padding: 1.5% 0;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.navbarContactNumber p {
+    color: white;
+    margin: 0;
+    font-size: 1.50vw;
+    font-weight: 700;
+}
+
+.navbarContactNumber img {
+    width: 9%;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .bar {
+    display: block;
+    width: 6vw;
+    height: 0.4vh;
+    margin: 1vh 0;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .bar.active:nth-child(1) {
+    transform: translateY(1.5vh) rotate(45deg);
+  }
+  
+  .bar.active:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .bar.active:nth-child(3) {
+    transform: translateY(-1.5vh) rotate(-45deg);
+  }
+  
+  .mobileMenu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 99;
+  }
+  
+  .mobileMenu.active {
+    transform: translateX(0);
+  }
+  
+  .mobileNavItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 5vh;
+  }
+  
+  .mobileNavItems a {
+    text-decoration: none;
+    color: black;
+    font-size: 5vw;
+    font-weight: 700;
+    opacity: 0;
+    transform: translateX(-2vw);
+    animation: slideIn 0.5s ease forwards;
+  }
+
+  .menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(67, 67, 70, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 98;
+  }
+  
+  .menu-overlay.active {
+    display: block;
+    opacity: 1;
+  }
+  
+  @keyframes slideIn {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+    .hamburger {
+      display: block;
+    }
+
+    .mobileMenu {
+      display: block;
+    }
+  
+    body.menu-open {
+      overflow: hidden;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .bar {
+      width: 7vw;
+      height: 0.3vh;
+      margin: 1.2vh 0;
+    }
+  
+    .mobileNavItems a {
+      font-size: 6vw;
+    }
+  }
+  
+  
+
+@media screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
+    .navbar {
+        padding: 2% 0;
+    }
+
+    .navbarImg {
+        width: 25%;
+        justify-content: space-between;
+    }
+
+    .navbarImg img{
+        width: 75%;
+    }
+
+    .navbarItems {
+        display: none;
+    }
+
+    .navbarContact {
+        width: 40%;
+   
+    }
+
+    .contactUsHeading {
+        display: none;
+    }
+
+    .navbarContactNumber {
+        width: 100%;
+        padding: 2% 4%;
+    }
+
+    .navbarContactNumber p {
+        font-size: 4vw;
+        padding: 4% 0;
+    }
+
+    .navbarContactNumber img {
+        width: 6%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+    }
+    .navbar {
+        padding: 1% 0;
+    }
+
+    .navbarImg {
+        width: 32%;
+    }
+
+    .navbarImg img{
+        width: 60%;
+    }
+
+    .navbarContact {
+        width: 40%;
+        
+    }
+
+    .navbarContactNumber p {
+        font-size: 3.8vw;
+        font-weight: 100;
+    }
+
+    .navbarContactNumber img {
+        width: 10%;
+    }
+
+    .contactUsHeading{
+        display: none;
+    }
+
+    .navbarContactNumber {
+        width: 100%;
+        padding: 2% 0;
+    }
+}

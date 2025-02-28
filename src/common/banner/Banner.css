@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Lgc';
+    src: url('../../Font/Lgc.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Lgc', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    width: 100%;
+    position: relative;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.banner .bannerText{
+    width: 28%;
+    position: absolute;
+    top: 21.5%;
+    left: 3%;
+}
+
+.bannerText p{
+    font-size: calc(2.1vw);
+    font-weight: normal;
+}
+
+@media (max-width: 575px){
+    .banner img{
+        display: none;
+    }
+    .banner{
+        background-image: url(https://res.cloudinary.com/dznnm9b1j/image/upload/v1740552657/Group_14_isgb05.png);
+        /* background-size: cover; */
+        padding: 75% 0;
+        background-size: 100% 100%;
+    }
+
+    .banner .bannerText{
+        display: none;
+    }
+}

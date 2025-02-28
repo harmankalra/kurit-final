@@ -1,0 +1,158 @@
+.aboutSection{
+    width: 94%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5%;
+    margin: auto;
+    margin-top: 12%;
+}
+
+.aboutSectionContent{
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.aboutSectionContent h1{
+    font-family: 'washington';
+    margin: 0;
+    font-size: 2vw;
+    font-weight: 100;
+    margin-bottom: 3%;
+}
+
+.aboutSectionContent p{
+    margin: 0;
+    color: black;
+    font-size: calc(1.5vw);
+}
+
+.aboutSectionImage{
+    width: 100%;
+    background-image: url(../../assets/image.png);
+    background-size: cover;
+    padding: 5% 0 42% 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: start;
+}
+
+.asUpper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.upperContent{
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.upperContent2{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.upperContent .uh{
+    margin: 0;
+    margin-bottom: 4%;
+    color: black;
+    font-size: calc(1vw);
+}
+
+.upperContent2 .uh{
+    margin: 0;
+    margin-bottom: 4%;
+    color: black;
+    font-size: calc(1vw);
+}
+
+.upperContent .up{
+    font-family: 'lgcd';
+    margin: 0;
+    color: black;
+    font-size: calc(1.4vw);
+}
+
+.upperContent2 .up{
+    font-family: 'lgcd';
+    margin: 0;
+    color: black;
+    font-size: calc(1.4vw);
+}
+
+.asLower{
+    width: 91%;
+    margin: auto;
+    display: flex;
+    margin-top: 4%;
+}
+
+.LowerContent{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.LowerContent .lh{
+    margin: 0;
+    margin-bottom: 4%;
+    color: black;
+    font-size: calc(1vw);
+}
+
+.LowerContent .lp{
+    font-family: 'lgcd';
+    margin: 0;
+    color: black;
+    font-size: calc(1.4vw);
+}
+
+@media (max-width: 575px){
+    .aboutSection{
+        width: 93%;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .aboutSectionContent h1{
+        font-size: 5.4vw;
+    }
+    
+    .aboutSectionContent p{
+        font-size: 4.3vw;
+    }
+
+    .aboutSectionImage{
+        padding: 5% 0 36% 0;
+    }
+
+    .upperContent .uh{
+        font-size: calc(3.2vw);
+    }
+    
+    .upperContent2 .uh{
+        font-size: calc(3.2vw);
+    }
+    
+    .upperContent .up{
+        font-size: calc(3.2vw);
+    }
+    
+    .upperContent2 .up{
+        font-size: calc(3.2vw);
+    }
+
+    .LowerContent .lh{
+        font-size: calc(3.2vw);
+    }
+    
+    .LowerContent .lp{
+        font-size: calc(3.2vw);
+    }
+}

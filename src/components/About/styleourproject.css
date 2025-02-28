@@ -1,0 +1,147 @@
+.ourprojectsection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.ourprojectHeading{
+    width: 94%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 1.5%;
+}
+
+.ourprojectHeading p{
+    font-family: "Washington";
+    font-size: 2.5vw;
+    margin: 0;
+}
+
+.ourproject {
+    width: 100%;
+    display: flex;
+    gap: 2%;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    cursor: grab;
+}
+
+.ourproject:active {
+    cursor: grabbing;
+}
+
+.ourproject::-webkit-scrollbar {
+    display: none;
+}
+
+.imagediv {
+    width: 50%;
+    flex-shrink: 0;
+    padding: 25% 1% 1% 1%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.imagediv p{
+    font-family: "lgcd";
+    font-size: 1.9vw;
+    color: white;
+    margin: 0;
+}
+
+.navbarCont {
+    width: 42%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 0.4%;
+    background-color: white;
+}
+
+.contactUsHead {
+    width: 34%;
+    display: flex;
+}
+
+.contactUsHead p {
+    font-family: 'lgcd';
+    margin: 0;
+    font-size: 1.3vw;
+    font-weight: 700;
+    color: black;
+}
+
+.navbarContactNu {
+    width: 65%;
+    display: flex;
+    padding: 4% 0;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.navbarContactNu p {
+    font-family: 'lgcd';
+    color: white;
+    margin: 0;
+    font-size: 1.4vw;
+    font-weight: 700;
+}
+
+.navbarContactNu img {
+    width: 9%;
+}
+@media (max-width: 575px){
+    .ourprojectHeading{
+        width: 93%;
+        margin-bottom: 2.5%;
+    }
+    
+    .ourprojectHeading p{
+        font-size: calc(6.5vw);
+    }
+
+    .ourproject {
+        gap: 3%;
+    }
+
+    .imagediv {
+        width: 75%;
+        padding: 55% 2% 2% 2%;
+    }
+    .imagediv p{
+        font-size: 3.5vw;
+    }
+
+    .contactUsHead {
+        display: none;
+    }
+
+    .navbarCont {
+        width: 42%;
+        border: none;
+        background-color: transparent;
+        justify-content: end;
+    }
+
+    .navbarContactNu {
+        width: 100%;
+        padding: 6% 0;
+    }
+    
+    .navbarContactNu p {
+        font-size: 3.1vw;
+    }
+    
+    .navbarContactNu img {
+        width: 8%;
+    }
+}
+

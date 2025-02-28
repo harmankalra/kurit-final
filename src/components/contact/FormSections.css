@@ -1,0 +1,170 @@
+.formS{
+    width: 100%;
+    margin-top: 12%;
+}
+
+.formStart{
+    width: 94%;
+    margin: auto;
+}
+
+.formHead{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 3.5%;
+}
+
+.formHead p{
+    margin: 0;
+}
+
+.formHead .fh{
+    font-family: 'washington';
+    font-size: 2.03vw;
+    margin-bottom: 1.5%;
+}
+
+.formHead .fp{
+    font-family: 'CustomFont';
+    font-size: 1.3vw;
+}
+
+.formLower{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.formInputs{
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formInputs input{
+    font-family: 'lgcd';
+    padding: 3.2% 0 3.2% 2%;
+    font-size: 1.3vw;
+    outline: none;
+    margin-bottom: 1%;
+    border: 1px solid black !important;
+}
+
+.formInputs textarea{
+    font-family: 'lgcd';
+    font-size: 1.3vw;
+    padding: 3% 0 18% 2%;
+    resize: none;
+    outline: none;
+    margin-bottom: 1%;
+    border: 1px solid black;
+}
+
+.formInputs .progressBar{
+    width: 99.7%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.formInputs .progressBar::-webkit-slider-runnable-track{
+    width: 100%;
+    padding: 1% 2% 1% 2%;
+    background-color: white;
+}
+
+.formInputs .progressBar::-webkit-slider-thumb{
+    appearance: none;
+    padding: 5% 0;
+    width: 10%;
+    background-color: #395198;  
+    background-image: url(https://res.cloudinary.com/dznnm9b1j/image/upload/v1740116906/greater-than-symbol_1_xxtyhv.png);
+    background-size: cover; 
+    position: relative;
+    z-index: 6;
+}
+
+.formMap{
+    width: 48%;
+}
+
+.formMap iframe{
+    width: 100%;
+    height: 99%;
+    border: 0;
+}
+
+.formInputs .progressBar::before {
+    content: "Drag to Send";
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4vw;
+    color: black;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.formInputs .progressBar{
+    padding: 0.7% 0 0.7% 0%;
+}
+
+
+@media (max-width: 575px){
+    .formStart{
+        width: 93%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formHead{
+        width: 93%;
+        margin-bottom: 6%;
+    }
+
+    .formHead .fh{
+        font-size: 6.5vw;
+    }
+    
+    .formHead .fp{
+        font-size: 4.3vw;
+    }
+
+    .formLower{
+        flex-direction: column;
+    }
+
+    .formInputs{
+        width: 99%;
+        margin-bottom: 8%;
+    }
+
+    .formInputs input{
+        font-size: 3.3vw;
+        margin-bottom: 1.5%;
+    }
+
+    .formInputs textarea{
+        font-size: 3.3vw;
+        margin-bottom: 1.5%;
+    }
+
+    .formInputs .progressBar{
+        width: 99.5%
+    }
+
+    .formInputs .progressBar::before {
+        font-size: 3vw;
+    }
+
+    .formMap{
+        width: 99%;
+        height:calc(35vw + 35vh);
+    }
+}

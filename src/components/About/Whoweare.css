@@ -1,0 +1,132 @@
+.whoweare{
+    width: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+}
+
+.leftsection{
+    width: 48.5%;
+    display: flex;
+    flex-direction: column;
+    padding: 4% 0;
+}
+
+.leftsection h1{
+    font-family: "Washington";
+    font-weight: 100;
+    font-size: calc(2.4vw);
+    margin: 0;
+    margin-bottom: 3%;
+}
+
+.leftsection p{
+    margin: 0;
+    font-size: calc(1.54vw);
+    margin-bottom: 3%;
+}
+
+.navbarCo{
+    width: 47%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 0.4%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.contactUs{
+    width: 40%;
+    display: flex;
+}
+
+.contactUs p {
+    font-family: 'lgcd';
+    margin: 0;
+    font-size: 1.4vw;
+    font-weight: 700;
+    color: black;
+}
+
+.navbarCoNumber {
+    width: 62%;
+    display: flex;
+    padding: 4% 0;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.navbarCoNumber p {
+    font-family: 'lgcd';
+    color: white;
+    margin: 0;
+    font-size: 1.4vw;
+    font-weight: 700;
+}
+
+.navbarCoNumber img {
+    width: 9%;
+}
+
+.rightsection{
+    width: 46%;
+}
+
+.rightsection img{
+    height: 100%;
+    width: 100%;
+}@media (max-width: 575px){
+    .whoweare{
+        width: 93%;
+        flex-direction: column;
+    }
+    .leftsection{
+        width: 93%;
+        padding: 4% 0;
+    }
+    .leftsection h1{
+        font-size: 6.5vw;
+        margin-bottom: 4%;
+    }
+    
+    .leftsection p{
+        margin: 0;
+        font-size: calc(4.8vw);
+        margin-bottom: 3%;
+    }
+
+    .navbarCo{
+        width: 76%;
+        padding: 1%;
+        margin-top: 2%;
+    }
+    .navbarCoNumber {
+        width: 70%;
+    }
+
+    .contactUs p {
+        font-size: 4vw;
+    }
+
+    .navbarCoNumber p {
+        font-size: 4vw;
+        margin-bottom: 0;
+    }
+    
+    .navbarCoNumber img {
+        width: 8%;
+    }
+
+    .rightsection{
+        width: 100%;
+        margin-top: 5%;
+    }
+    
+    .rightsection img{
+        height: 100%;
+        width: 100%;
+    }
+}
