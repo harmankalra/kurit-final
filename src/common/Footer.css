@@ -407,6 +407,9 @@
 }
 
 @media (max-width: 575px){
+    .contactUm p {
+        font-size: 2.80vw;
+    }
     .navbarContactNm{
         width: 100%;
     }
