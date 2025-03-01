@@ -33,9 +33,13 @@ const Footer=()=>{
                         </div>
 
                         <div className="footerC">
-                            <p className="fh">Email</p>
-                            <p className="fp">yuktam@kurit.in</p>
-                        </div>
+    <p className="fh">Email</p>
+    <p className="fp">
+        <a href="mailto:yuktam@kurit.in" style={{ textDecoration: 'none', color: 'inherit' }}>
+            yuktam@kurit.in
+        </a>
+    </p>
+</div>
 
                         <div className="navbarC">
                         <a href="tel:+919517777992">
@@ -98,9 +102,14 @@ const Footer=()=>{
                     </div>
 
                     <div className="emailspace">
-                        <p className="fh">Email</p>
-                        <p className="fp">yuktam@kurit.in</p>
-                    </div>
+    <p className="fh">Email</p>
+    <p className="fp">
+        <a href="mailto:yuktam@kurit.in" style={{ textDecoration: 'none', color: 'inherit' }}>
+            yuktam@kurit.in
+        </a>
+    </p>
+</div>
+
                 </div>
                 <div className="innerimg2">
                     {/* <img src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740556225/joel-filipe-RFDP7_80v5A-unsplash_2_1_agrtr6.png" alt="" /> */}
