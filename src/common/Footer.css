@@ -407,6 +407,12 @@
 }
 
 @media (max-width: 575px){
+    .navbarContactNm{
+        width: 100%;
+    }
+    .contactUm{
+        width: 100%;
+    }
     .completeFooter{
         overflow: hidden;
     }
