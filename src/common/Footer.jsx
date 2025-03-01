@@ -112,7 +112,7 @@ const Footer=()=>{
                 <p>Copyright by Kurit 25-2026</p>
             </div>
             <div className="footerSecond">
-                <p>Designed & Developed by PITAMAAS</p>
+                <p>Designed & Developed by  <a href="https://www.pitamaas.com" target="blank">PITAMAAS</a></p>
             </div>
         </div>
     </div>
