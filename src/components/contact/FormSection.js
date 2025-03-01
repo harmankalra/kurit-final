@@ -78,7 +78,7 @@ const FormSection = () => {
         try {
             await new Promise(resolve => setTimeout(resolve, 500));
             
-            const response = await fetch("https://dasmesh-mailer.ritaz.in/kurit-email", {
+            const response = await fetch("https://dasmesh-mailer.ritaz.in/kuritemail", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
