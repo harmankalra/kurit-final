@@ -44,12 +44,12 @@ const venues = [
       "https://res.cloudinary.com/dznnm9b1j/image/upload/t_rajgadh/v1740740273/a-27_h6yzqu.jpg"
     ],
     propertiesList: [
-      { name: "Prime Location & Connectivity", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740832815/gallery-6_hlzzl4.jpg" },
-      { name: "Luxurious & Spacious Apartment", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740832815/gallery-5_xliulw.jpg"},
-      { name: "World-Class Amenities & Facilities"  , img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740832816/gallery-3_qeot3w.jpg" 
+      { name: "Prime Location & Connectivity", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834003/Screenshot_2025-03-01_182925_zq9hsw.png" },
+      { name: "Luxurious & Spacious Apartment", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834004/Screenshot_2025-03-01_182915_h80nsj.png"},
+      { name: "World-Class Amenities & Facilities"  , img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834004/Screenshot_2025-03-01_182838_g34abz.png" 
       },
-      { name: "24*7 Power Supply", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740832815/gallery-8_upra5w.jpg" },
-      { name: "Eco-Friendly & Sustainable Living", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740832815/gallery-1_x4z6as.jpg" }
+      { name: "24*7 Power Supply", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834003/Screenshot_2025-03-01_182945_kq2zps.png" },
+      { name: "Eco-Friendly & Sustainable Living", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834003/WhatsApp_Image_2025-03-01_at_6.28.47_PM_dvhdel.jpg" }
     ]
   }
 ];
