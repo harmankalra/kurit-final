@@ -285,8 +285,8 @@ const Venue = () => {
                 <div className="venueLowerDetail">
                   <div className="venueLowerDHeading">
                     <p>{venue.name}</p>
-                    <a href="tel:+919517777992">
                     <div className="navbarContact1">
+                    <a href="tel:+919517777992">
                       <div className="contactUsHeading1">
                         <p>Contact Us</p>
                       </div>
@@ -294,8 +294,8 @@ const Venue = () => {
                         <p>+91 95177 77992</p>
                         <img src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
                       </div>
-                    </div>
                     </a>
+                    </div>
                   </div>
                   <div className="venueLowerDDetails">
                     <div className="venueLeft">

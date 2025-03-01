@@ -37,8 +37,8 @@ const Footer=()=>{
                             <p className="fp">yuktam@kurit.in</p>
                         </div>
 
-                        <a href="tel:+919517777992">
                         <div className="navbarC">
+                        <a href="tel:+919517777992">
                             <div className="contactU">
                                 <p>Contact Us</p>
                             </div>
@@ -47,8 +47,8 @@ const Footer=()=>{
                             <p>+91 95177 77992</p>
                                 <img src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
                             </div>
-                        </div>
                             </a>
+                        </div>
                     </div>
                 </div>
 
@@ -64,8 +64,8 @@ const Footer=()=>{
                     <div className="innerimg">
                         <img src={Kurit} alt="" />
                     </div>
-                    <a href="tel:+919517777992">
                     <div className="navbarCm">
+                    <a href="tel:+919517777992">
                         <div className="contactUm">
                             <p>Contact Us</p>
                         </div>
@@ -73,8 +73,8 @@ const Footer=()=>{
                             <p>+91 95177 77992</p>
                             <img src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
                         </div>
-                    </div>
                     </a>
+                    </div>
                 </div>
 
                 <div className="innermiddle">
