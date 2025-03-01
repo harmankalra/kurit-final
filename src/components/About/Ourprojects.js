@@ -166,6 +166,7 @@ const Ourproject = () => {
                 {[...projects, ...projects].map((project, index) => (
                     <div key={index} className="imagediv" style={{ backgroundImage: `url(${project.img})` }}>
                         <p>{project.name}</p>
+                        <a href="tel:+919517777992">
                         <div className="navbarCont">
                             <div className="contactUsHead">
                                 <p>Contact Us</p>
@@ -175,6 +176,7 @@ const Ourproject = () => {
                                 <img src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
                             </div>
                         </div>
+                        </a>
                     </div>
                 ))}
             </div>

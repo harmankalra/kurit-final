@@ -33,9 +33,49 @@
     align-items: end;
     justify-content: space-between;
     padding: 0.4%;
-    background-color: white;
-    border: 1px solid black;
-}
+    background-color: #fff;
+    /* border: 1px solid black; */
+    text-shadow: none;
+    /* Removed text shadow */
+    --border-angle: 0turn;
+    --main-bg: conic-gradient(from var(--border-angle),
+        white,
+        white 5%,
+        white 60%,
+        white 95%);
+    border: solid 2px transparent;
+    --gradient-border: conic-gradient(from var(--border-angle),
+        transparent 25%,
+        black,
+        black 99%,
+        transparent);
+    background: var(--main-bg) padding-box, var(--gradient-border) border-box, var(--main-bg) border-box;
+    background-position: center center;
+    -webkit-animation: bg-spin 3s linear infinite;
+    animation: bg-spin 3s linear infinite;
+    margin-top: 0.5%;
+  }
+  
+  
+  @-webkit-keyframes bg-spin {
+    to {
+      --border-angle: 1turn;
+    }
+  }
+  
+  @keyframes bg-spin {
+    to {
+      --border-angle: 1turn;
+    }
+  }
+  
+  @property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+  }
+  
+
 
 .contactUs{
     width: 40%;

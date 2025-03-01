@@ -9,7 +9,7 @@ const Whoweare=()=>{
             <h1 data-aos="zoom-in">Who We Are?</h1>
             <p data-aos="zoom-in">At <span>Kurit</span> we specialize in <span>real estate portfolio management,</span> helping investors make informed and profitable property decisions. Our expertise lies in connecting clients in high-value residential and commercial projects that prmoise long-term growth.</p>
             <p data-aos="zoom-in">With a strategic approach and deep market insights, we ensure that every investments is aligned with your financial goals. Whether you are looking for premium plots, luxury townships, or smart real estate investments, <span>Kurit</span> is your trusted partner.</p>
-
+            <a href="tel:+919517777992">
             <div className="navbarCo" data-aos="zoom-in">
             <div className="contactUs">
               <p>Contact Us</p>
@@ -19,6 +19,7 @@ const Whoweare=()=>{
               <img src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
             </div>
           </div>
+          </a>
         </div>
         <div className="rightsection">
             <img src={About} alt="" data-aos="fade-up"

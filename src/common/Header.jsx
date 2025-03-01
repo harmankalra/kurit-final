@@ -60,7 +60,7 @@ function Header() {
           <a href="/about"><span>About</span></a>
           <a href="/contact"><span>Contact</span></a>
         </div>
-
+        <a href="tel:+919517777992">
         <div className="navbarContact">
           <div className="contactUsHeading">
             <p>Contact Us</p>
@@ -70,6 +70,7 @@ function Header() {
             <img src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
           </div>
         </div>
+        </a>
       </div>
     </div>
   )
