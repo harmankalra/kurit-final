@@ -11,39 +11,41 @@ body {
     padding: 0;
 }
 
-.banner{
+.banner {
     width: 100%;
     position: relative;
+    background-size: cover;
+    background-position: center;
 }
 
-.banner img{
+.banner img {
     width: 100%;
 }
 
-.banner .bannerText{
+/* Banner text styling (Home only) */
+.banner .bannerText {
     width: 28%;
     position: absolute;
     top: 21.5%;
     left: 3%;
 }
 
-.bannerText p{
+.bannerText p {
     font-size: calc(2.1vw);
     font-weight: normal;
 }
 
-@media (max-width: 575px){
-    .banner img{
+/* Mobile View - Dynamically Change Background */
+@media (max-width: 575px) {
+    .banner img {
         display: none;
     }
-    .banner{
-        background-image: url(https://res.cloudinary.com/dznnm9b1j/image/upload/v1740552657/Group_14_isgb05.png);
-        /* background-size: cover; */
+    .banner {
         padding: 75% 0;
         background-size: 100% 100%;
     }
 
-    .banner .bannerText{
+    .banner .bannerText {
         display: none;
     }
 }
