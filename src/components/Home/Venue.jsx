@@ -40,17 +40,17 @@ const venues = [
     name: "UMBERA ORCHARD",
     images: [
       "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740030925/Image-1_p7l0c6.png",
-      "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740740274/mivan_janvr4.jpg",
-      "https://res.cloudinary.com/dznnm9b1j/image/upload/t_rajgadh/v1740740273/a-27_h6yzqu.jpg"
+      "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834004/Screenshot_2025-03-01_182838_g34abz.png",
+      "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834003/Screenshot_2025-03-01_182925_zq9hsw.png"
     ],
     propertiesList: [
-      { name: "Prime Location & Connectivity", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834003/Screenshot_2025-03-01_182925_zq9hsw.png" },
-      { name: "Luxurious & Spacious Apartment", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834004/Screenshot_2025-03-01_182915_h80nsj.png"},
-      { name: "World-Class Amenities & Facilities"  , img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834004/Screenshot_2025-03-01_182838_g34abz.png" 
-      },
-      { name: "24*7 Power Supply", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834003/Screenshot_2025-03-01_182945_kq2zps.png" },
-      { name: "Eco-Friendly & Sustainable Living", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834003/WhatsApp_Image_2025-03-01_at_6.28.47_PM_dvhdel.jpg" }
+      { name: "The Luxe Spots Zone", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834003/Screenshot_2025-03-01_182925_zq9hsw.png" },
+      { name: "Sculpture Garden Retreat", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834004/Screenshot_2025-03-01_182915_h80nsj.png"},
+      { name: "Prestige Putting Green", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834004/Screenshot_2025-03-01_182838_g34abz.png" },
+      { name: "Zen Harmony Garden", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834003/Screenshot_2025-03-01_182945_kq2zps.png" },
+      { name: "Shaded Lotus Plaza Royale", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834003/WhatsApp_Image_2025-03-01_at_6.28.47_PM_dvhdel.jpg" }
     ]
+    
   }
 ];
 
