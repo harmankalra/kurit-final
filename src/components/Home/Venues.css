@@ -154,7 +154,7 @@
   width: 100%;
   border: 1px solid black;
   display: flex;
-  height: 100dvh;
+  height: 100vh;
   flex-direction: column;
   background-color: #395198;
 }
@@ -504,7 +504,7 @@
   }
 
   .venueRight img{
-    height: 30dvh;
+    height: 30vh;
   }
 
   .venueLowerDHeading{
@@ -517,7 +517,7 @@
   }
 
   .venueUpper img {
-    height: 32dvh;
+    height: 32vh;
   }
 
   .contactUsHeading1 {
