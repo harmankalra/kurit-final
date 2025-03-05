@@ -14,7 +14,7 @@ const Footer=()=>{
 
                 <div className="footerLeft">
                     <div className="footerKuritImg">
-                        <img src={Kurit} alt="" />
+                          <img loading="lazy" src={Kurit} alt="" />
                     </div>
                     <div className="footerNavLinks">
                         <a href="/"><span>Home</span></a>
@@ -49,7 +49,7 @@ const Footer=()=>{
                             <div className="navbarContactN">
                            
                             <p>+91 95177 77992</p>
-                                <img src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
+                                  <img loading="lazy" src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
                             </div>
                             </a>
                         </div>
@@ -57,7 +57,7 @@ const Footer=()=>{
                 </div>
 
                 <div className="fRightImg">
-                    <img src={footerimg} alt="" />
+                      <img loading="lazy" src={footerimg} alt="" />
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@ const Footer=()=>{
             <div className="innerwhite">
                 <div className="innerUpper">
                     <div className="innerimg">
-                        <img src={Kurit} alt="" />
+                          <img loading="lazy" src={Kurit} alt="" />
                     </div>
                     <div className="navbarCm">
                         <div className="contactUm">
@@ -76,7 +76,7 @@ const Footer=()=>{
                          <a href="tel:+919517777992">
                         <div className="navbarContactNm">
                             <p>+91 95177 77992</p>
-                            <img src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
+                              <img loading="lazy" src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
                         </div>
                     </a>
                     </div>
@@ -112,7 +112,7 @@ const Footer=()=>{
 
                 </div>
                 <div className="innerimg2">
-                    {/* <img src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740556225/joel-filipe-RFDP7_80v5A-unsplash_2_1_agrtr6.png" alt="" /> */}
+                    {/*   <img loading="lazy" src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740556225/joel-filipe-RFDP7_80v5A-unsplash_2_1_agrtr6.png" alt="" /> */}
                 </div>
             </div>
         </div>

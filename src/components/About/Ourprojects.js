@@ -80,7 +80,7 @@
 //                             </div>
 //                             <div className="navbarContactNu">
 //                                 <p>+91 95177 77992</p>
-//                                 <img
+//                                   <img loading="lazy"
 //                                     src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png"
 //                                     alt=""
 //                                 />
@@ -173,7 +173,7 @@ const Ourproject = () => {
                             </div>
                             <div className="navbarContactNu">
                                 <p>+91 95177 77992</p>
-                                <img src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
+                                  <img loading="lazy" src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
                             </div>
                         </a>
                         </div>

@@ -14,12 +14,12 @@ body {
 .banner {
     width: 100%;
     position: relative;
-    background-size: cover;
-    background-position: center;
 }
 
+/* Desktop Banner Image */
 .banner img {
     width: 100%;
+    display: block;
 }
 
 /* Banner text styling (Home only) */
@@ -35,14 +35,17 @@ body {
     font-weight: normal;
 }
 
-/* Mobile View - Dynamically Change Background */
+/* Mobile View - Hide img and apply dynamic background */
 @media (max-width: 575px) {
-    .banner img {
-        display: none;
-    }
     .banner {
+        background-position: center;
         padding: 75% 0;
         background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .banner img {
+        display: none;
     }
 
     .banner .bannerText {

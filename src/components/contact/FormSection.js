@@ -10,20 +10,14 @@ const FormSection = () => {
         phone: "",
         message: "",
     });
-    
+
     const [progress, setProgress] = useState(0);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [formSubmitted, setFormSubmitted] = useState(false);
+    const [alertShown, setAlertShown] = useState(false); // Track if alert has been shown
 
-    const validateEmail = (email) => {
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return emailRegex.test(email);
-    };
-
-    const validatePhone = (phone) => {
-        const phoneRegex = /^[0-9]{10}$/;
-        return phoneRegex.test(phone);
-    };
+    const validateEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    const validatePhone = (phone) => /^[0-9]{10}$/.test(phone);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -31,53 +25,57 @@ const FormSection = () => {
             ...prevFormData,
             [name]: value,
         }));
+
+        // Reset alert if user starts filling in the form
+        if (alertShown) {
+            setAlertShown(false);
+        }
     };
-    
+
+    const isFormEmpty = () => {
+        return Object.values(formData).some((field) => field.trim() === "");
+    };
+
     const handleProgressChange = (e) => {
+        if (isFormEmpty()) {
+            if (!alertShown) {
+                toast.warn("Please fill all fields before submitting!", { position: "top-center" });
+                setAlertShown(true); // Mark that the alert has been shown
+            }
+            return;
+        }
+
         const newProgress = parseInt(e.target.value);
         setProgress(newProgress);
         if (newProgress >= 100) {
             triggerSubmitIfReady();
         }
     };
-    
+
     const triggerSubmitIfReady = () => {
-        if (isSubmitting || formSubmitted) {
-            return;
-        }
-        
+        if (isSubmitting || formSubmitted) return;
+
         if (!validateEmail(formData.email)) {
             toast.warn("Please enter a valid email address", { position: "top-center" });
             return;
         }
-        
+
         if (!validatePhone(formData.phone)) {
             toast.warn("Please enter a valid 10-digit phone number", { position: "top-center" });
             return;
         }
-        
-        const allFieldsFilled = 
-            formData.name.trim() !== "" && 
-            formData.email.trim() !== "" && 
-            formData.phone.trim() !== "" && 
-            formData.message.trim() !== "";
-            
-        if (allFieldsFilled) {
-            handleFormSubmit();
-        } else {
-            setProgress(95);
-            toast.warn("Please fill all required fields before submitting", { position: "top-center" });
-        }
+
+        handleFormSubmit();
     };
-    
+
     const handleFormSubmit = async () => {
         if (isSubmitting) return;
-        
+
         setIsSubmitting(true);
-        
+
         try {
             await new Promise(resolve => setTimeout(resolve, 500));
-            
+
             const response = await fetch("https://dasmesh-mailer.ritaz.in/kuritemail", {
                 method: "POST",
                 headers: {
@@ -110,12 +108,12 @@ const FormSection = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        
+
         if (progress < 100) {
             toast.info("Please drag the slider to 100% to send", { position: "top-center" });
             return;
         }
-        
+
         triggerSubmitIfReady();
     };
 
@@ -135,23 +133,23 @@ const FormSection = () => {
                             <input type="number" placeholder="Phone No." name="phone" value={formData.phone} onChange={handleChange} required />
                             <input type="email" placeholder="Email" name="email" value={formData.email} onChange={handleChange} required />
                             <textarea placeholder="Message" name="message" value={formData.message} onChange={handleChange} required></textarea>
-                            
+
                             <div className="progressBarContainer">
                                 <label htmlFor="formProgress" className="progressLabel">
                                     {isSubmitting ? "Sending..." : progress < 100 ? "Drag to Send →" : "Sending..."}
                                 </label>
-                                <input 
+                                <input
                                     id="formProgress"
-                                    type="range" 
-                                    min={0} 
-                                    max={100} 
-                                    value={progress} 
-                                    onChange={handleProgressChange} 
-                                    className={`progressBar ${isSubmitting ? 'sending' : ''}`} 
+                                    type="range"
+                                    min={0}
+                                    max={100}
+                                    value={progress}
+                                    onChange={handleProgressChange}
+                                    className={`progressBar ${isSubmitting ? 'sending' : ''}`}
                                     disabled={isSubmitting}
                                 />
                             </div>
-                            
+
                             {isSubmitting && (
                                 <div className="formLoader">
                                     <div className="spinner"></div>
@@ -159,9 +157,9 @@ const FormSection = () => {
                             )}
                         </div>
 
-                        <div className="formMap" >
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3423.9427500942074!2d75.8031968!3d30.8882625!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a8181f5f9ef23%3A0xaca3c50f2aaaaf2b!2sBhai%20Randhir%20Singh%20Nagar%2C%20Ludhiana%2C%20Punjab!5e0!3m2!1sen!2sin!4v1740221015133!5m2!1sen!2sin" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="iframe"></iframe>
-                    </div>
+                        <div className="formMap">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3423.9427500942074!2d75.8031968!3d30.8882625!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a8181f5f9ef23%3A0xaca3c50f2aaaaf2b!2sBhai%20Randhir%20Singh%20Nagar%2C%20Ludhiana%2C%20Punjab!5e0!3m2!1sen!2sin!4v1740221015133!5m2!1sen!2sin" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="iframe"></iframe>
+                        </div>
                     </div>
                 </form>
             </div>

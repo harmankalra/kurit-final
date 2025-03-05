@@ -255,7 +255,7 @@ const Venue = () => {
               <div className="venueLower">
                 <div className="venueUpper">
                   <div className="carousel-container" style={{ position: 'relative',width :'95%', margin :'auto' }}>
-                    <img
+                      <img loading="lazy"
                       src={venue.images[currentIndexes[venueIndex]]}
                       className="carouselImage fade-zoom"
                       alt="Venue"
@@ -268,7 +268,7 @@ const Venue = () => {
                       onTouchStart={(e) => handleTouchStart(e, venueIndex)}
                       onTouchMove={handleTouchMove}
                       onTouchEnd={handleTouchEnd}
-                      style={{ cursor: 'default', cursor: getCursorStyle(cursorType[venueIndex]) }}
+                      style={{  cursor: getCursorStyle(cursorType[venueIndex]) }}
                     />
                   </div>
                   
@@ -292,7 +292,7 @@ const Venue = () => {
                       </div>
                       <div className="navbarContactNumber1">
                         <p>+91 95177 77992</p>
-                        <img src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
+                          <img loading="lazy" src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
                       </div>
                     </a>
                     </div>
@@ -316,7 +316,7 @@ const Venue = () => {
                       ))}
                     </div>
                     <div className="venueRight">
-                      <img src={venue.propertiesList[selectedProperties[venueIndex]].img} alt="" className={`venueImage ${showNewImage ? "active" : ""}`} />
+                        <img loading="lazy" src={venue.propertiesList[selectedProperties[venueIndex]].img} alt="" className={`venueImage ${showNewImage ? "active" : ""}`} />
                     </div>
                   </div>
                 </div>

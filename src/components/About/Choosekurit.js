@@ -14,22 +14,22 @@ const Choosekurit=()=>{
             </div>
             <div className="gridsection">
                 <div className="picandtext t1">
-                    <img src={leader} alt="" />
+                      <img loading="lazy" src={leader} alt="" />
                     <p>Expert Portfolio Management</p>
                 </div>
 
                 <div className="picandtext t2">
-                    <img src={architect} alt="" />
+                      <img loading="lazy" src={architect} alt="" />
                     <p>Premium Projects</p>
                 </div>
 
                 <div className="picandtext t3">
-                    <img src={guidance} alt="" />
+                      <img loading="lazy" src={guidance} alt="" />
                     <p>Trusted Guidance</p>
                 </div>
 
                 <div className="picandtext t4">
-                    <img src={growth} alt="" />
+                      <img loading="lazy" src={growth} alt="" />
                     <p>Strategic Growth</p>
                 </div>
             </div>

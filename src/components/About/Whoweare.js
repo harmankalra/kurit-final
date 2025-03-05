@@ -16,13 +16,13 @@ const Whoweare=()=>{
             </div>
             <div className="navbarCoNumber">
               <p>+91 95177 77992</p>
-              <img src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
+                <img loading="lazy" src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
             </div>
           </a>
           </div>
         </div>
         <div className="rightsection">
-            <img src={About} alt="" data-aos="fade-up"
+              <img loading="lazy" src={About} alt="" data-aos="fade-up"
  data-aos-duration="3000" />
         </div>
     </div>

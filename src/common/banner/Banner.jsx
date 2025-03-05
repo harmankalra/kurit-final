@@ -18,7 +18,10 @@ const Banner = () => {
         "/": "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740552657/Group_14_isgb05.png",
     };
 
-    // Assign a dynamic class for CSS targeting
+    const defaultDesktopBanner = "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740564710/baner_y3gu3t.jpg";
+    const defaultMobileBanner = "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740552657/Group_14_isgb05.png";
+
+    // Assign dynamic class for styling
     const bannerClass = location.pathname === "/about"
         ? "about-banner"
         : location.pathname === "/contact"
@@ -26,18 +29,19 @@ const Banner = () => {
         : "home-banner";
 
     return (
-        <div 
-            className={`banner ${bannerClass}`} 
+        <div
+            className={`banner ${bannerClass}`}
             style={{
-                backgroundImage: `url(${mobileBannerImages[location.pathname] || mobileBannerImages["/"]})`,
+                backgroundImage: `url(${mobileBannerImages[location.pathname] || defaultMobileBanner})`,
             }}
         >
-            <img
-                src={bannerImages[location.pathname] || "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740564710/baner_y3gu3t.jpg"}
-                alt="Banner"
+            {/* Desktop Image (Hidden in Mobile View) */}
+              <img loading="lazy"
+                src={bannerImages[location.pathname] || defaultDesktopBanner}
+                alt="Banner" 
             />
-            
-            {/* Show banner text only on the home page */}
+
+            {/* Show banner text only on home page */}
             {location.pathname === "/" && (
                 <div className="bannerText">
                     <p>Maximizing Your Real Estate Portfolio for Smarter Investments!</p>

@@ -51,7 +51,7 @@ function Header() {
             </div>
           </div>
           <a href="/">
-          <img src={Kurit || "/placeholder.svg"} alt="" />
+            <img loading="lazy"  src={Kurit || "/placeholder.svg"} alt="" />
           </a>
         </div>
 
@@ -67,7 +67,7 @@ function Header() {
           </div>
           <div className="navbarContactNumber">
             <p>+91 95177 77992</p>
-            <img src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
+              <img loading="lazy" src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
           </div>
         </a>
         </div>
