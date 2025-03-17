@@ -100,9 +100,9 @@
 
 .navbarC {
     width: 90%;
-    display: flex;
+    /* display: flex;
     align-items: end;
-    justify-content: space-between;
+    justify-content: space-between; */
     padding: 0.7%;
     background-color: white;
     border: 1px solid black;
@@ -407,18 +407,19 @@
 }
 
 @media (max-width: 575px){
-    /* .contactUm p {
-        font-size: 2.80vw;
-    } */
-    .navbarCm{
-width: 73%;
+    .contactUm p {
+        font-size: 3.60vw;
     }
+
+    /* .navbarCm{
+width: 73%;
+    } */
     .navbarContactNm{
         width: 100%;
     }
-    .contactUm{
+    /* .contactUm{
         width: 100%;
-    }
+    } */
     .completeFooter{
         overflow: hidden;
     }

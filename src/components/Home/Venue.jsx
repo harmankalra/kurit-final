@@ -6,49 +6,49 @@ const venues = [
     id: 1,
     name: "AIPL DREAMCITY LUDHIANA",
     images: [
-      "https://res.cloudinary.com/dznnm9b1j/image/upload/t_rajgadh/v1740737903/1_czbrgk.webp",
-      "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740737910/Exterior-4_o4id0n.webp",
-      "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740030939/Image_g8stec.png"
+      "https://res.cloudinary.com/dbohtvj14/image/upload/t_RESIZE/v1742202362/scroll1_ds7c3q.webp",
+      "https://res.cloudinary.com/dbohtvj14/image/upload/v1742195064/bnrInnerPage-04_ykg6wt.jpg",
+      "https://res.cloudinary.com/dbohtvj14/image/upload/v1742201665/Club_Aqua_Fa%C3%A7ade_1_1_lahmrp.webp"
     ],
     propertiesList: [
-      { name: "500+* Acre Smart Township", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/t_rajgadh/v1740737903/1_czbrgk.webp" },
-      { name: "7.4-Acre Central Lake", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740737905/bnrInnerPage-04_u0mc4x.jpg" },
-      { name: "Club Aqua", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740737910/Exterior-4_o4id0n.webp" },
-      { name: "Integrated Amenities", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/t_rajgadh/v1740737903/gallery-1_jfqoxa.webp" },
-      { name: "Green Environment", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/t_rajgadh/v1740737903/DSC_1583_owquca.webp" }
+      { name: "500+* Acre Smart Township", img: "https://res.cloudinary.com/dbohtvj14/image/upload/v1742202002/DSC_1583_mycq6d.webp" },
+      { name: "7.4-Acre Central Lake", img: "https://res.cloudinary.com/dbohtvj14/image/upload/t_RESIZE/v1742195061/g01_kzjmke.jpg" },
+      { name: "Club Aqua", img: "https://res.cloudinary.com/dbohtvj14/image/upload/v1742201665/Club_Aqua_Fa%C3%A7ade_1_1_lahmrp.webp" },
+      { name: "Integrated Amenities", img: "https://res.cloudinary.com/dbohtvj14/image/upload/v1742201972/Burrow-2_1_lafwtj.webp" },
+      { name: "Green Environment", img: "https://res.cloudinary.com/dbohtvj14/image/upload/v1742201859/residence2_azuivf.jpg" }
     ]
   },
   {
     id: 2,
     name: "RAJGADH ESTATES",
     images: [
-      "https://res.cloudinary.com/dznnm9b1j/image/upload/t_rajgadh/v1740646126/02_zvygg2.jpg",
-      "https://res.cloudinary.com/dznnm9b1j/image/upload/t_rajgadh/v1740646408/07_nn1gle.jpg",
-      "https://res.cloudinary.com/dznnm9b1j/image/upload/t_rajgadh/v1740646231/rajgadh-banner_vuplle.jpg"
+      "https://res.cloudinary.com/dbohtvj14/image/upload/t_chotu rajgarh /v1742207372/02_tssdqu.jpg",
+      "https://res.cloudinary.com/dbohtvj14/image/upload/t_RESIZE/v1742207372/05_odpbzm.jpg",
+      "https://res.cloudinary.com/dbohtvj14/image/upload/v1742207371/06_nzublk.jpg"
     ],
     propertiesList: [
-      { name: "Premium Residential Plots", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/t_rajgadh/v1740646408/07_nn1gle.jpg" },
-      { name: "Modern Infrastructure & Amenities", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/t_rajgadh/v1740646231/rajgadh-banner_vuplle.jpg"},
-      { name: "Gated Community with Security"  , img: "https://res.cloudinary.com/dznnm9b1j/image/upload/t_rajgadh/v1740646126/02_zvygg2.jpg" 
+      { name: "Premium Residential Plots", img: "https://res.cloudinary.com/dbohtvj14/image/upload/v1742207371/Aerial_view01-min_uhjtlv.webp" },
+      { name: "Modern Infrastructure & Amenities", img: "https://res.cloudinary.com/dbohtvj14/image/upload/v1742207371/07_oeohmm.jpg"},
+      { name: "Gated Community with Security"  , img: "https://res.cloudinary.com/dbohtvj14/image/upload/t_chotu rajgarh /v1742207372/02_tssdqu.jpg" 
       },
-      { name: "Eco-Friendly Living", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/t_rajgadh/v1740737373/Rajgadh_banner_eknup5.jpg" },
-      { name: "Green Parks & Open Spaces", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/t_rajgadh/v1740737271/infrasructure-banner_fce3dc.jpg" }
+      { name: "Eco-Friendly Living", img: "https://res.cloudinary.com/dbohtvj14/image/upload/v1742207371/Rajgadh_banner_tkumf5.jpg" },
+      { name: "Green Parks & Open Spaces", img: "https://res.cloudinary.com/dbohtvj14/image/upload/v1742207371/infrasructure-banner_ls3owu.jpg" }
     ]
   },
   {
     id: 3,
     name: "UMBERA ORCHARD",
     images: [
-      "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740030925/Image-1_p7l0c6.png",
-      "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834004/Screenshot_2025-03-01_182838_g34abz.png",
-      "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834003/Screenshot_2025-03-01_182925_zq9hsw.png"
+      "https://res.cloudinary.com/dbohtvj14/image/upload/v1742212453/Image-1_p7l0c6_1_vnsdsu.png",
+      "https://res.cloudinary.com/dbohtvj14/image/upload/v1742212456/Screenshot_2025-03-01_182915_h80nsj_1_wm2hjm.png",
+      "https://res.cloudinary.com/dbohtvj14/image/upload/v1742212453/Screenshot_2025-03-01_182838_g34abz_3_piq5rq.png"
     ],
     propertiesList: [
-      { name: "The Luxe Spots Zone", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834003/Screenshot_2025-03-01_182925_zq9hsw.png" },
-      { name: "Sculpture Garden Retreat", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834004/Screenshot_2025-03-01_182915_h80nsj.png"},
-      { name: "Prestige Putting Green", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834004/Screenshot_2025-03-01_182838_g34abz.png" },
-      { name: "Zen Harmony Garden", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834003/Screenshot_2025-03-01_182945_kq2zps.png" },
-      { name: "Shaded Lotus Plaza Royale", img: "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740834003/WhatsApp_Image_2025-03-01_at_6.28.47_PM_dvhdel.jpg" }
+      { name: "The Luxe Spots Zone", img: "https://res.cloudinary.com/dbohtvj14/image/upload/v1742212453/Screenshot_2025-03-01_182925_zq9hsw_1_iwcrqr.png" },
+      { name: "Sculpture Garden Retreat", img: "https://res.cloudinary.com/dbohtvj14/image/upload/v1742212456/Screenshot_2025-03-01_182915_h80nsj_1_wm2hjm.png"},
+      { name: "Prestige Putting Green", img: "https://res.cloudinary.com/dbohtvj14/image/upload/v1742212453/Screenshot_2025-03-01_182838_g34abz_3_piq5rq.png" },
+      { name: "Zen Harmony Garden", img: "https://res.cloudinary.com/dbohtvj14/image/upload/v1742212454/Screenshot_2025-03-01_182945_frmm3j.png" },
+      { name: "Shaded Lotus Plaza Royale", img: "https://res.cloudinary.com/dbohtvj14/image/upload/v1742212454/WhatsApp_Image_2025-03-01_at_6.28.47_PM_rrsxg6.jpg" }
     ]
     
   }
@@ -292,7 +292,7 @@ const Venue = () => {
                       </div>
                       <div className="navbarContactNumber1">
                         <p>+91 95177 77992</p>
-                          <img loading="lazy" src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
+                          <img loading="lazy" src="https://res.cloudinary.com/dbohtvj14/image/upload/v1742196155/Group_15_kje7pw.png" alt="" />
                       </div>
                     </a>
                     </div>

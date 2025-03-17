@@ -7,18 +7,18 @@ const Banner = () => {
 
     // Define banner images for different pages (Desktop)
     const bannerImages = {
-        "/about": "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740831037/Kurit_Banner_2_vbmc2u.png",
-        "/contact": "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740829104/Main_Frame_bh4oy4.png",
+        "/about": "https://res.cloudinary.com/dbohtvj14/image/upload/v1742195067/Kurit_Banner_2_vbmc2u_xyrphs.png",
+        "/contact": "https://res.cloudinary.com/dbohtvj14/image/upload/v1742195066/Main_Frame_bh4oy4_rcpta0.png",
     };
 
     // Define banner images for mobile view
     const mobileBannerImages = {
-        "/about": "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740831036/Frame_20_cj6v0k.png",
-        "/contact": "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740831040/Kurit_Banner_4_aamktk.png",
-        "/": "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740552657/Group_14_isgb05.png",
+        "/about": "https://res.cloudinary.com/dbohtvj14/image/upload/v1742215194/Frame_20_gdtkrn.png",
+        "/contact": "https://res.cloudinary.com/dbohtvj14/image/upload/v1742215200/Kurit_Banner_4_a8oswj.png",
+        "/": "https://res.cloudinary.com/dbohtvj14/image/upload/v1742195062/Group_14_ov4krm.png",
     };
 
-    const defaultDesktopBanner = "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740564710/baner_y3gu3t.jpg";
+    const defaultDesktopBanner = "https://res.cloudinary.com/dbohtvj14/image/upload/v1742195066/baner_y3gu3t_p6jocw.jpg";
     const defaultMobileBanner = "https://res.cloudinary.com/dznnm9b1j/image/upload/v1740552657/Group_14_isgb05.png";
 
     // Assign dynamic class for styling
@@ -36,7 +36,7 @@ const Banner = () => {
             }}
         >
             {/* Desktop Image (Hidden in Mobile View) */}
-              <img loading="lazy"
+              <img 
                 src={bannerImages[location.pathname] || defaultDesktopBanner}
                 alt="Banner" 
             />

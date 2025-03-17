@@ -1,6 +1,6 @@
 import React from "react";
 import './Whoweare.css';
-const About = 'https://res.cloudinary.com/dznnm9b1j/image/upload/v1740462539/About_nzb2xe.png'
+const About = 'https://res.cloudinary.com/dbohtvj14/image/upload/v1742195082/About_ljlkj6.png'
 
 const Whoweare=()=>{
   return(
@@ -16,7 +16,7 @@ const Whoweare=()=>{
             </div>
             <div className="navbarCoNumber">
               <p>+91 95177 77992</p>
-                <img loading="lazy" src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
+                <img loading="lazy" src="https://res.cloudinary.com/dbohtvj14/image/upload/v1742196155/Group_15_kje7pw.png" alt="arrow" />
             </div>
           </a>
           </div>

@@ -83,8 +83,10 @@
     padding: 5% 0;
     width: 10%;
     background-color: #395198;  
-    background-image: url(https://res.cloudinary.com/dznnm9b1j/image/upload/v1740116906/greater-than-symbol_1_xxtyhv.png);
-    background-size: cover; 
+    background-image: url(https://res.cloudinary.com/dbohtvj14/image/upload/v1742214417/Vector_yo3can.png);
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
     z-index: 6;
 }

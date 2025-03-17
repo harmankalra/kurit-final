@@ -173,7 +173,7 @@ const Ourproject = () => {
                             </div>
                             <div className="navbarContactNu">
                                 <p>+91 95177 77992</p>
-                                  <img loading="lazy" src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
+                                  <img loading="lazy" src="https://res.cloudinary.com/dbohtvj14/image/upload/v1742196155/Group_15_kje7pw.png" alt="" />
                             </div>
                         </a>
                         </div>

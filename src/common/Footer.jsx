@@ -1,8 +1,8 @@
 import React from "react";
 import './Footer.css';
 
-const footerimg = 'https://res.cloudinary.com/dznnm9b1j/image/upload/v1740460068/footerimg_ezvvz3.png';
-const Kurit = 'https://res.cloudinary.com/dznnm9b1j/image/upload/v1740460027/KuritIcon_xh0dal.png';
+const footerimg = 'https://res.cloudinary.com/dbohtvj14/image/upload/v1742195083/footerimg_sotzi7.png';
+const Kurit = 'https://res.cloudinary.com/dbohtvj14/image/upload/v1742195084/KuritIcon_p4ys2b.png';
 
 
 const Footer=()=>{
@@ -49,7 +49,7 @@ const Footer=()=>{
                             <div className="navbarContactN">
                            
                             <p>+91 95177 77992</p>
-                                  <img loading="lazy" src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
+                                  <img loading="lazy" src="https://res.cloudinary.com/dbohtvj14/image/upload/v1742196155/Group_15_kje7pw.png" alt="" />
                             </div>
                             </a>
                         </div>
@@ -76,7 +76,7 @@ const Footer=()=>{
                          <a href="tel:+919517777992">
                         <div className="navbarContactNm">
                             <p>+91 95177 77992</p>
-                              <img loading="lazy" src="https://res.cloudinary.com/dznnm9b1j/image/upload/v1740036744/up-right-arrow_ovtgwy.png" alt="" />
+                              <img loading="lazy" src="https://res.cloudinary.com/dbohtvj14/image/upload/v1742196155/Group_15_kje7pw.png" alt="" />
                         </div>
                     </a>
                     </div>
