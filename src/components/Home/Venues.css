@@ -157,6 +157,7 @@
   height: 100vh;
   flex-direction: column;
   background-color: #395198;
+  overflow: hidden;
 }
 
 .venuwLowerDetail {
