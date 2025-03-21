@@ -383,7 +383,7 @@
 
 .carouselImage {
   width: 100%;
-  height: 40vh;
+  height: 42vh;
   object-fit: fill;
   transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out;
   cursor: pointer;
